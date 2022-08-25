@@ -8,6 +8,18 @@
 }
 
 button{
-    margin-left: 60px;
+    
     font-size: 20px;
 }
+.class{
+    display: flex;
+    line-height: 0px
+}
+.clas1 button{
+
+}
+.class1{
+    margin-left: 45px;
+    margin-top: 7px;
+}
+

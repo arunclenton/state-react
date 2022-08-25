@@ -5,6 +5,17 @@ export default class Studentadd extends Component {
         
         this.props.removevalue(this.props.prod);
       };
+
+      incresevalue =() => {
+
+        this.props.incresevalue(this.props.prod);
+      }
+
+      reducevalue =() => {
+
+        this.props.reducevalue(this.props.prod);
+      }
+
     render() {
         return (
             <div  className='arun'>
@@ -17,6 +28,8 @@ export default class Studentadd extends Component {
    <br></br>
    <h4>qyt:{this.props.prod.qyt}</h4>
    <button onClick={this.removevalue}>remove</button>
+   <button onClick={this.reducevalue}>-</button>
+   <button onClick={this.incresevalue}>+</button>
 </div>
             </div>
         )
